@@ -51,7 +51,6 @@ program ::= expr(A). {
 
 // "=" -> EQ 
 program ::= NAME(A) EQ expr(B).     { A.symt->value = B.value; } 
-program ::= expr(A).     { } 
 
 expr(A) ::= expr(B) MINUS   expr(C).  { A.value = B.value - C.value; }
 expr(A) ::= expr(B) PLUS    expr(C).  { A.value = B.value + C.value; }
