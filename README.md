@@ -5,6 +5,7 @@
 
  ## 语法文件内容
  1. 描述语法的产生式
+ 2. 特殊声明符和它指定的代码段
     1. %code
     2. %default_destructor
     3. %default_type
@@ -25,5 +26,3 @@
     18. %token_prefix
     19. %token_type
     20. %type
-    21. ...
- 2. 特殊声明符和它指定的代码段
